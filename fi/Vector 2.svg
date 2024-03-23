@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width='1260' height='589' style="background-color:burlywood">
+
+<path d="M945 104L457.5 4H3.5V469L457.5 897L945 824.5" stroke="black" stroke-opacity="0.51" stroke-width="7" fill="none"/>
+
+    <!-- sq -->
+    <Path d="M40 40 300 40 " stroke-width="5" stroke="black" fill:'none' />
+    <Path d="M40 40 40 300" stroke-width="5" stroke="black"  fill:'none'/>
+    <Path d="M40 300 300 300" stroke-width="5" stroke="black" fill:'none' />
+    <Path d="M300 40 300 300" stroke-width="5" stroke="black" fill:'none' />
+    <!-- diag -->
+    <Path d="M300 40 170 170 " stroke-width="5" stroke="black" fill:'none' />
+    <Path d="M40 40 170 170" stroke-width="5" stroke="black" fill:'none' />
+    <Path d="M300 300 170 170 " stroke-width="5" stroke="black"  fill:'none'/>
+    <Path d="M40 300 170 170 " stroke-width="5" stroke="black" fill:'none' />
+    <!-- ext -->
+    <Path d="M170 170 170 400" stroke-width="5" stroke="black" fill:'none' />
+    <Path d="M170 400 450 450" stroke-width="5" stroke="black" fill:'none' />
+    <Path d="M400 170 450 450" stroke-width="5" stroke="black" fill:'none' />
+    <Path d="M170 170 400 170" stroke-width="5" stroke="black" fill:'none' />
+
+
+
+
+
+    <Path d="M400 170 620 100" stroke-width="5" stroke="black" />
+
+
+    <Path d="M40 300 300 540" stroke-width="5" stroke="black" />
+
+
+    <Path d="M1200 300 940 540" stroke-width="5" stroke="black" />
+
+
+
+
+    <!-- exitpath -->
+    <Path d="M450 450 620 500" stroke-width="5" stroke="black" />
+    <Path d="M790 450 620 500" stroke-width="5" stroke="black" />
+    <Path d="M940 540 620 500" stroke-width="5" stroke="black" />
+    <Path d="M300 540 620 500" stroke-width="5" stroke="black" />
+
+
+    <!-- entrypath -->
+    <Path d="M620 100 300 40" stroke-width="5" stroke="black" />
+    <Path d="M620 100 940 40" stroke-width="5" stroke="black" />
+
+
+
+
+
+
+
+
+
+
+    <Circle onclick="fun1()" id="c1" cx=40 cy=40 r=10 stroke="blue" strokeWidth="1.5" fill="red"/>
+    <Circle onclick="fun2()" id='c2' cx=300 cy=40 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun3()" id='c3' cx=40 cy=300 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun4()" id='c4' cx=300 cy=300 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun5()" id="c5" cx=400 cy=170 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun6()" id="c6" cx=170 cy=170 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun7()" id="c7" cx=170 cy=400 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun8()" id="c8" cx=450 cy=450 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+
+
+
+
+
+
+    <!-- Entry exit -->
+    <Path d="M840 170 620 100" stroke-width="5" stroke="black" />
+
+    <Circle onclick="fun9()" id="c9" cx=620 cy=100 r=10 stroke="blue" strokeWidth="2.5" fill="red" />
+
+    <Circle onclick="fun10()" id="c10" cx=300 cy=540 r=10 stroke="blue" strokeWidth="2.5" fill="red" />
+
+    <Circle onclick="fun11()" id="c11" cx=940 cy=540 r=10 stroke="blue" strokeWidth="2.5" fill="red" />
+
+    <Circle onclick="fun12()" id="c12" cx=620 cy=500 r=10 stroke="blue" strokeWidth="2.5" fill="red" />
+
+
+
+
+
+    <!-- sq -->
+    <Path d="M940 40 1200 40 " stroke-width="5" stroke="black" />
+    <Path d="M940 40 940 300" stroke-width="5" stroke="black" />
+    <Path d="M940 300 1200 300" stroke-width="5" stroke="black" />
+    <Path d="M1200 40 1200 300" stroke-width="5" stroke="black" />
+    <!-- diag -->
+    <Path d="M1200 40 1070 170 " stroke-width="5" stroke="black" />
+    <Path d="M940 40 1070 170" stroke-width="5" stroke="black" />
+    <Path d="M1200 300 1070 170 " stroke-width="5" stroke="black" />
+    <Path d="M940 300 1070 170 " stroke-width="5" stroke="black" />
+    <Path d="M1070 170 1070 400" stroke-width="5" stroke="black" />
+    <Path d="M1070 400 790 450" stroke-width="5" stroke="black" />
+    <Path d="M840 170 790 450" stroke-width="5" stroke="black" />
+    <!-- ext -->
+    <Path d="M840 170 1070 170" stroke-width="5" stroke="black" />
+    <path id="curve" d="" />
+
+
+
+
+    <Circle onclick="fun13()" id="c13" cx=940 cy=40 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun14()" id='c14' cx=1200 cy=40 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun15()" id='c15' cx=940 cy=300 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun16()" id='c16' cx=1200 cy=300 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun17()" id="c17" cx=1070 cy=170 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun18()" id="c18" cx=840 cy=170 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun19()" id="c19" cx=1070 cy=400 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+    <Circle onclick="fun20()" id="c20" cx=790 cy=450 r=10 stroke="blue" strokeWidth="1.5" fill="red" />
+  </svg>
